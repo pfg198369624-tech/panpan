@@ -107,9 +107,9 @@ review_id,author,rating,title,content,version,reviewed_at
 
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
-| `VOLC_ACCESS_KEY` | 火山方舟 Access Key | (必填) |
-| `VOLC_SECRET_KEY` | 火山方舟 Secret Key | (必填) |
-| `VOLC_MODEL_ENDPOINT` | 模型 Endpoint | (必填) |
+| `VOLC_API_URL` | 火山方舟 API 地址 | (必填) |
+| `VOLC_MODEL_NAME` | 模型名称 | (必填) |
+| `VOLC_API_KEY` | API 密钥 | (必填) |
 | `AI_TIMEOUT` | AI 调用超时(秒) | `300` |
 | `AI_MAX_TOKENS` | AI 最大输出 Token | `8192` |
 | `COLLECTION_MAX_PAGES` | RSS 采集页数 | `1` |
